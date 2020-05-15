@@ -55,10 +55,16 @@ class ViewController: UIViewController {
                 
         // TODO Step 6: Modify the IF-Statement to complete the story
         
+        if(sender.tag == 1){
+            print("top pressed")
+        } else if(sender.tag == 2){
+            print("bottom pressed")
+        }
+        
+        
     
     }
     
-
 
 
 }
